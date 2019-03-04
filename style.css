@@ -1,0 +1,51 @@
+.main-background{
+    background-image: url("./images/waterfall.jpg");
+}
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: aqua;
+	color: rgb(215, 27, 253);
+	font-size: xx-large;
+	text-align: center;
+}
+h2 {
+	font-family: 'Arial';
+	color: rgb(118, 62, 247);
+	font-size: xx-large;
+	text-align: center;
+}
+h3 {
+	font-family: 'Serif';
+	color: rgb(231, 16, 16);
+	font-size: x-large;
+	text-align: center;
+}
+h4 {
+	font-family: 'Arial';
+	color: rgb(37, 16, 231);
+	font-size: x-large;
+	text-align: center;
+}
+h5 {
+	font-family: 'Times New Roman';
+	color: rgb(53, 236, 8);
+	font-size: x-large;
+	text-align: center;
+}
+h6 {
+	font-family: 'Calibri';
+	color: rgb(231, 16, 16);
+	font-size: x-large;
+	text-align: center;
+}
+p {
+	font-family: 'Serif';
+	color: rgb(231, 84, 16);
+	font-size: x-large;
+	text-align: center;
+}
+/* Set the size of the div element that contains the map */
+#map {
+	height: 400px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+}

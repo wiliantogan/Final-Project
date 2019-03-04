@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <script type="text/javascript" src="index.js">
+        </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script type="text/javascript" charset="UTF-8" src="https://maps.google.com/maps-api-v3/api/js/36/3/common.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="https://maps.google.com/maps-api-v3/api/js/36/3/util.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+            <body bgcolor="lightblue">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Elegant Tour & Travel</br>by Wilianto, M.M., M.T.I.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="destination.html">Destination</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>    
+            </div>
+            </nav>
+            <main>
+                    <img class="img-fluid about-banner w-100 pb-5" src="images/travel.jpg">
+                    <div align="center">
+                  
+                      <h4>Elegant Tour & Travel Medan-Indonesia</h4>
+                      <h5>Contact : (+62) 87766046260</h5>
+                      <h5>Email : wiliantogan@gmail.com</h5>
+                        <p><b>Address : Sena No.20 Medan,<br> North Sumatra-20234</b></p></br></br>
+                    </div>
+                    <div class="container">
+                      <!--Grid row-->
+                      <div class="row pb-5">
+                        <!--Grid column-->
+                        <div class="col-md-6 text-center">
+                            <div id="map"></div>
+                            <!-- Replace the value of the key parameter with your own API key. -->
+                            <script async defer
+                              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFo8qoTN75zjRAf62XLCZkMVMFGOlECnM&callback=initMap">
+                              initMap();
+                            </script>
+                            </div>
+                        <div class="col-md-6">
+                            <section class="section">
+                      <div class="row">
+                  
+                          <!--Grid column-->
+                          <div class="col-md-12 col-xl-12">
+                              <form method="POST" action="https://formspree.io/wiliantogan@gmail.com">
+                                  <!--Grid row-->
+                                  <div class="row">
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <div class="md-form">
+                                              <input type="text" id="name" name="name" class="form-control" required="">
+                                              <label for="name">Your name</label>
+                                          </div>
+                                      </div>
+                                      <!--Grid column-->
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <div class="md-form">
+                                              <input type="text" id="email" name="email" class="form-control" required="">
+                                              <label for="email">Your email</label>
+                                          </div>
+                                      </div>
+                                      <!--Grid column-->
+                  
+                                  </div>
+                                  <!--Grid row-->
+                  
+                                  <!--Grid row-->
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                          <div class="md-form">
+                                              <input type="text" id="subject" name="subject" class="form-control" required="">
+                                              <label for="subject">Subject</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+                  
+                                  <!--Grid row-->
+                                  <div class="row">
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-12">
+                                          <div class="md-form">
+                                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required=""></textarea>
+                                              <label for="message">Your message</label>
+                                          </div>
+                  
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+                                  <div class="alert alert-success hidden" role="alert" id="alert">
+                                    Message sent!
+                                  </div>
+                                  <div class="center-on-small-only">
+                                      <button type="submit" class="btn btn-primary">Send</button>
+                                  </div>
+                  
+                              </form>
+                  
+                              <div class="status"></div>
+                          </div>
+                          <!--Grid column-->
+                  
+                      </div>
+                  
+                  </section>
+                  <!--Section: Contact v.2-->
+                          <p></p>
+                        </div>
+                        <!--Grid column-->
+                      </div>
+                      <!--Grid row-->
+                    </div>
+                  </main>
+                  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://maps.google.com/maps/api/js"></script>
+                  <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+                  <script type="text/javascript" src="/js/mdb.min.js"></script>
+                  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+                  <script type="text/javascript" src="/js/popper.min.js"></script>
+                  <script type="text/javascript">
+                    $('#contact-form').submit((e)=>{
+                      const name = $('#name').val();
+                      const email = $('#email').val();
+                      const subject = $('#subject').val();
+                      const message = $('#message').val();
+                      console.log(message);
+
+                      $('#btnsend').attr("disabled", "disabled");
+                      $.post( "/sendemail", { name, email, subject, message },()=>{
+                        $('#alert').toggleClass('hidden');
+                        setTimeout(()=>$('#alert').toggleClass('hidden'), 4000);
+                        $('#btnsend').removeAttr("disabled");
+                        $('#contact-form').trigger("reset");
+                      });
+                      return false;
+                    })
+                  </script>
+                  <div class="hiddendiv common"></div>
+                        <div id="OP_lyrMain" style="display: none; z-index: 2147483646; position: absolute; left: 0px; top: 0px; width: 1536px; height: 990px; background-color: black; opacity: 0.6;">
+                        </div>
+        <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Click for our appreciation!
+          </button>
+        <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Thank You!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Thank you for your visit and registration. We would like to thank you for your visit to our website, may you always comeback for a visit, we will always upgrade our contents to satisfy your need!</h6>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
